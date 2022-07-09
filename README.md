@@ -48,7 +48,7 @@ Within terminal. Run
 
 OUTPUT
 -------------------------------------------------------------------------------------
-Text file titled "authors" will be created within the root directory of the repo with the top authors for the given period. With the total number of commits listed on the left as well as their names and email addresses.
+Text file titled "authors" will be created within the root directory of the repo with the top authors for the given period. With the total number of commits listed on the left as well as their names and email addresses. The total authors will also be printed to the terminal but this can be ignored since the text file will have it properly organized.
 
 EXAMPLE:
     312	Zuul <zuul@review.opendev.org>
@@ -68,3 +68,4 @@ Troubleshooting
 ------------------------------------------------------------------------------------
 When running the script multiple times be sure to clear the authors.txt file or delete it entirely because the information will be appended to the existing info and this could be confusing.
 
+The count variable will have to be adjusted according to the number of authors within the repository for a given period. If the number is adjust to be more than the amount of commit authors avaliable the script will return undefined for the additional entries. 
