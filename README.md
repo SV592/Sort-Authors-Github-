@@ -2,6 +2,7 @@
 
 DESCRIPTION
 Returns a text file containing the top commit authors for a repo during a particular period and their individual total commits 
+
 --------------------------------------------------------------------------------------
 
 REQUIREMENTS
@@ -10,6 +11,7 @@ This script requires the following to function:
 .[NODEJS] V14.15.1 or higher  
 .[GIT] V2.29.2 or higher 
 .[ShellJS] V0.8.5 or higher
+
 --------------------------------------------------------------------------------------
 
 INSTALLATION
@@ -30,11 +32,13 @@ Adjust the following variable as desired:
 1. Starting date for period of data retrieval = startDate FORMAT(string)  "Dec 9 2021"
 2. Ending date for the period of data retrieval = endDate FORMAT(string)  "July 9 2022"
 3. Desired number of Authors to return = count FORMAT(number) 12 
+
 -------------------------------------------------------------------------------------
 
 RUN
 Within terminal. Run
   node sortAuthors.js
+  
 -------------------------------------------------------------------------------------
 
 OUTPUT
