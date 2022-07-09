@@ -66,6 +66,6 @@ EXAMPLE:
 
 Troubleshooting
 ------------------------------------------------------------------------------------
-When running the script multiple times be sure to clear the authors.txt file or delete it entirely because the information will be appended to the existing info and this could be confusing.
+When running the script multiple times be sure to clear the authors.txt file or delete it entirely because the information will be appended to the existing data and this can be confusing.
 
 The count variable will have to be adjusted according to the number of authors within the repository for a given period. If the number is adjust to be more than the amount of commit authors avaliable the script will return undefined for the additional entries. 
