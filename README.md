@@ -24,7 +24,7 @@ Install GIT globally as normal. Visit
   https://git-scm.com/
   
 Install SHELLJS within the repo package you're working with. Run 
-  npm i shelljs (windows) 
+  `npm i shelljs (windows)` 
   
 
   
@@ -42,7 +42,7 @@ Adjust the following variable as desired:
 RUN
 -------------------------------------------------------------------------------------
 Within terminal. Run
-  node sortAuthors.js
+  `node sortAuthors.js`
   
 
 
