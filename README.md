@@ -64,3 +64,7 @@ EXAMPLE:
       5	Frode Nordahl <frode.nordahl@canonical.com>
       5	Luis Tomas Bolivar <ltomasbo@redhat.com>
 
+Troubleshooting
+------------------------------------------------------------------------------------
+When running the script multiple times be sure to clear the authors.txt file or delete it entirely because the information will be appended to the existing info and this could be confusing.
+
