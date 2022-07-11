@@ -18,7 +18,7 @@ function sortAuthors(info) {
     let count = 12;
 
     //Looping through the 12 most popular authors of the repo 
-    for (let i = 0; i < count; i++) {
+    for (let i = 1; i <= count; i++) {
         fs.appendFileSync("authors.txt", `\n ${info[i]}`, (err) => {
             if (err) {
                 return console.log(err); //Returning error if operation fails 
