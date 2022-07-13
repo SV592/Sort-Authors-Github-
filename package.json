@@ -1,0 +1,14 @@
+{
+  "name": "sort-authors",
+  "version": "1.0.0",
+  "description": "Returns a sorted list of the top 12 authors over a period of 6 months and their total individual commits",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shaquille Pearson",
+  "license": "ISC",
+  "dependencies": {
+    "shelljs": "^0.8.5"
+  }
+}
