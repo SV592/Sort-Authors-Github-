@@ -23,19 +23,20 @@ Install NODE globally as normal. Visit
 Install GIT globally as normal. Visit 
   https://git-scm.com/
   
-Install SHELLJS within the repo package you're working with. Run 
-  `npm i shelljs (windows)` 
+Install node modules. Run 
+  `npm i` within the sort authors folder 
   
 
   
 CONFIGURATION
 -------------------------------------------------------------------------------------
-Place the script within the root directory of the repo you're working with.
-Adjust the following variable as desired:
+Upon starting the script, it will promot the user to enter the required valued in the following formats.
+The repo path has to be up the root directory.
 
-1. Starting date for period of data retrieval = startDate FORMAT(string)  "Dec 9 2021"
-2. Ending date for the period of data retrieval = endDate FORMAT(string)  "July 9 2022"
-3. Desired number of Authors to return = count FORMAT(number) 12 
+1. Full repository path (locally) = FORMAT - "C:\Users\shaqu\Desktop\Sort Authors"
+2. Starting date for period of data retrieval =  FORMAT - Dec 9 2021
+3. Ending date for the period of data retrieval = FORMAT - July 9 2022
+4. Desired number of Authors to return = FORMAT - 12 
 
 
 
@@ -48,7 +49,7 @@ Within terminal. Run
 
 OUTPUT
 -------------------------------------------------------------------------------------
-Text file titled "authors" will be created within the root directory of the repo with the top authors for the given period. With the total number of commits listed on the left as well as their names and email addresses. The total authors will also be printed to the terminal but this can be ignored since the text file will have it properly organized.
+The CLI terminal will start up welcoming the user, then proceeding to get the required info. When all necessary information is entered a completion message will be logged and a text file titled "authors" will be created within the root directory of the working folder. This contains the top authors for the given period. With the total number of commits listed on the left as well as their names and email addresses.
 
 EXAMPLE:
     312	Zuul <zuul@review.opendev.org>
@@ -68,4 +69,4 @@ Troubleshooting
 ------------------------------------------------------------------------------------
 When running the script multiple times be sure to clear the authors.txt file or delete it entirely because the information will be appended to the existing data and this can be confusing.
 
-The count variable will have to be adjusted according to the number of authors within the repository for a given period. If the number is adjust to be more than the amount of commit authors avaliable the script will return undefined for the additional entries. 
+The number of authors will have to be adjusted according to the number of authors within the repository for the given period. If the number is adjusted more than the totla amount of commit authors avaliable, the script will return undefined for the additional entries. 
