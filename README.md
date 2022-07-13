@@ -52,8 +52,8 @@ OUTPUT
 The CLI terminal will start up welcoming the user, then proceeding to get the required info. When all necessary information is entered a completion message will be logged and a text file titled "authors" will be created within the root directory of the working folder. This contains the top authors for the given period. With the total number of commits listed on the left as well as their names and email addresses.
 
 EXAMPLE:
-    312	Zuul <zuul@review.opendev.org>
-     90	Rodolfo Alonso Hernandez <ralonsoh@redhat.com>
+   
+     89	Rodolfo Alonso Hernandez <ralonsoh@redhat.com>
      52	Slawek Kaplonski <skaplons@redhat.com>
      33	yatinkarel <ykarel@redhat.com>
      13	Jakub Libosvar <libosvar@redhat.com>
@@ -64,6 +64,7 @@ EXAMPLE:
       5	Arnau Verdaguer <averdagu@redhat.com>
       5	Frode Nordahl <frode.nordahl@canonical.com>
       5	Luis Tomas Bolivar <ltomasbo@redhat.com>
+      5	Miguel Lavalle <mlavalle@redhat.com>
 
 Troubleshooting
 ------------------------------------------------------------------------------------
