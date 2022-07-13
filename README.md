@@ -23,7 +23,7 @@ Install NODE globally as normal. Visit
 Install GIT globally as normal. Visit 
   https://git-scm.com/
   
-Install node modules. Run 
+Install Node Modules. Run 
   `npm i` within the sort authors folder 
   
 
