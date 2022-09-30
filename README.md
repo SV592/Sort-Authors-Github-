@@ -9,9 +9,9 @@ REQUIREMENTS
 --------------------------------------------------------------------------------------
 This script requires the following to function:
 
-.[NODEJS] V14.15.1 or higher  
-.[GIT] V2.29.2 or higher 
-.[ShellJS] V0.8.5 or higher
+.[NODEJS] V14.15.1  
+.[GIT] V2.29.2 
+.[ShellJS] V0.8.5
 
 
 
