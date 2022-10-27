@@ -51,6 +51,9 @@ OUTPUT
 -------------------------------------------------------------------------------------
 The CLI terminal will start up welcoming the user, then proceeding to get the required info. When all necessary information is entered a completion message will be logged and a text file titled "authors" will be created within the root directory of the working folder. This contains the top authors for the given period. With the total number of commits listed on the left as well as their names and email addresses.
 
+![Screenshot 2022-10-27 094733](https://user-images.githubusercontent.com/58669882/198302441-36af50d0-89b5-4be4-9133-49e90be2de16.png)
+
+
 EXAMPLE:
    
      89	Rodolfo Alonso Hernandez <ralonsoh@redhat.com>
@@ -63,11 +66,11 @@ EXAMPLE:
       8	zhouhenglc <zhouhenglc@inspur.com>
       5	Arnau Verdaguer <averdagu@redhat.com>
       5	Frode Nordahl <frode.nordahl@canonical.com>
-      5	Luis Tomas Bolivar <ltomasbo@redhat.com>
-      5	Miguel Lavalle <mlavalle@redhat.com>
+      
+      
 
 Troubleshooting
 ------------------------------------------------------------------------------------
 When running the script multiple times be sure to clear the authors.txt file or delete it entirely because the information will be appended to the existing data and this can be confusing.
 
-The number of authors will have to be adjusted according to the number of authors within the repository for the given period. If the number is adjusted more than the totla amount of commit authors avaliable, the script will return undefined for the additional entries. 
+The number of authors will have to be adjusted according to the number of authors within the repository for the given period. If the number is adjusted more than the total amount of commit authors avaliable, the script will return undefined for the additional entries. 
